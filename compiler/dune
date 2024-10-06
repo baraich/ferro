@@ -1,5 +1,5 @@
 (executable
  (name main)
  (public_name compiler)
- (modules main)
+ (modules lexer parser ast main)
  (libraries))

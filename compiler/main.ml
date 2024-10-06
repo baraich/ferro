@@ -1,31 +1,7 @@
 open Lexer
 
 let () =
-
-
-
-
-
-  let input = 
-    
-    
-    
-    
-    
-    "if (x > 0.01 + 0.02) { return 1; } else { return 0; }" 
-    
-    
-    
-    
-    
-    
-    in
-    
-
-
-
-
-
+  let input = "if (x > 0.01 + 0.02) { return 1; } else { return 0; }" in
   let tokens = lexer input 0 in
   Printf.printf "- : token list =\n[";
   List.iteri (fun i token ->
